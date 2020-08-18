@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/cat.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <section class="section slider">
+        <div class="container-fluid">
+          <div class="row carousel">
+            <div class="col-12 p-0">
+              <div
+                id="carouselExamplesIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    class="active"
+                    data-target="#carouselExamplesIndicators"
+                    data-slide-to="0"
+                  ></li>
+                  <li
+                    data-target="#carouselExamplesIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExamplesIndicators"
+                    data-slide-to="2"
+                  ></li>
+                  <li
+                    data-target="#carouselExamplesIndicators"
+                    data-slide-to="3"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/1920x1080-px-forest-lake-mountain-669259.jpg"
+                      alt=""
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/2514190-cool-pictures-of-mountains.jpg"
+                      alt=""
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/6070111-waves-mountains-beach-evening-sunset-sea-rocks.jpg"
+                      alt=""
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/ws_Roads_1920x1440.jpg"
+                      alt=""
+                      class="d-block w-100"
+                    />
+                  </div>
+                </div>
+                <a
+                  href="#carouselExamplesIndicators"
+                  class="carousel-control-next"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                <a
+                  href="#carouselExamplesIndicators"
+                  class="carousel-control-prev"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stars" id="stars">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="catContainer">
+              <div id="cat">
+                <div id="cat-eye-left" class="cat-eye">
+                  <div class="cat-eyeball"></div>
+                </div>
+                <div id="cat-eye-right" class="cat-eye">
+                  <div class="cat-eyeball"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section form">
+        <div class="container-fluid h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-6">
+              <div id="windowContainer">
+                <div class="alert alert-success" role="alert">
+                  <h4 class="alert-heading" id="windowHeader">
+                    Well done
+                    <i
+                      class="fa fa-times-circle"
+                      
+                      aria-hidden="true"
+                    ></i>
+                  </h4>
+                  <p>
+                    Thanks for left your feedback. We appreciate it. Good luck
+                    to you!
+                  </p>
+                </div>
+              </div>
+
+              <div class="formContainer">
+                <form class="feedbackForm">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1"
+                      >Yours feedback</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="4"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./libs/fullPage/easings.min.js"></script>
+    <script src="./libs/fullPage/scrolloverflow.min.js"></script>
+    <script src="./libs/fullPage/fullpage.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#fullpage").fullpage();
+      });
+    </script>
+    <script type="text/javascript" src="./js/cat.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+  </body>
+</html>

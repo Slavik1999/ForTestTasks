@@ -1,0 +1,12 @@
+.section.form.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#windowContainer {
+  display: none;
+}
+#windowHeader {
+  display: flex;
+  justify-content: space-between;
+}

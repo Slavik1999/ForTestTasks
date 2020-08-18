@@ -1,0 +1,42 @@
+#cat {
+  margin: 15% auto 0;
+  position: relative;
+  width: 100%;
+}
+.catContainer {
+  margin-top: 20%;
+}
+#cat:before {
+  content: "";
+
+  width: 587px;
+  background: url(../img/nofound.png) center top no-repeat;
+  height: 410px;
+  position: absolute;
+  left: 50%;
+  margin-left: -293px;
+}
+.cat-eye {
+  position: absolute;
+  display: none;
+  width: 60px;
+  height: 61px;
+}
+.cat-eyeball {
+  position: absolute;
+  left: 22.5px;
+  top: 24.5px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/eyes.png);
+}
+#cat-eye-left {
+  top: 82px;
+  left: 50%;
+  margin-left: -75px;
+}
+#cat-eye-right {
+  top: 82px;
+  left: 50%;
+  margin-left: -5px;
+}
